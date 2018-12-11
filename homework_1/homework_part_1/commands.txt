@@ -1,0 +1,38 @@
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mkdir death_starTylers-MacBook-Pro:homework_part_1 tylernicholson$ touch death_star/darth_vader.txt death_sta
+r/princess_leia.txt death_star/storm_trooper.txt
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mkdir galaxy_far_far_away
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mkdir galaxy_far_far_away/tatooine
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ touch galaxy_far_far_away/tatooine/luke.tx
+t galaxy_far_far_away/tatooine/ben_kenobi.txt
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mkdir galaxy_far_far_away/tatooine/millenium_falcon
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ touch galaxy_far_far_away/tatooine/millenium_falcon/han_solo.txt galaxy_far_far_away/tatooine/millenium_falcon/chewbaca.txt
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mv galaxy_far_far_away/tatooine/ben_kenobi.txt galaxy_far_far_away/tatooine/obi_wan.txt
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ cp death_star/storm_trooper.txt galaxy_far_far_away/tatooine/
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mv galaxy_far_far_away/tatooine/luke.txt galaxy_far_far_away/tatooine/millenium_falcon/
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mv galaxy_far_far_away/tatooine/obi_wan.txt galaxy_far_far_away/tatooine/millenium_falcon/
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mv galaxy_far_far_away/tatooine/millenium_falcon/ galaxy_far_far_away/
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mv galaxy_far_far_away/millenium_falcon/ death_star/
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mv death_star/princess_leia.txt death_star/millenium_falcon/
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ rm death_star/millenium_falcon/obi_wan.txt
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mkdir galaxy_far_far_away/yavin_4
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mv death_star/millenium_falcon/ galaxy_far_far_away/yavin_4/
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mkdir galaxy_far_far_away/yavin_4/x_wing
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mv galaxy_far_far_away/yavin_4/millenium_falcon/princess_leia.txt galaxy_far_far_away/yavin_4/
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mv galaxy_far_far_away/yavin_4/millenium_falcon/luke.txt galaxy_far_far_away/yavin_4/x_wing/
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mv galaxy_far_far_away/yavin_4/millenium_falcon/ galaxy_far_far_away/
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mv galaxy_far_far_away/yavin_4/x_wing/ galaxy_far_far_away/
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mkdir death_star/tie_fighter_1 death_star/tie_fighter_2 death_star/tie_fighter_3
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mv death_star/darth_vader.txt death_star/tie_fighter_1
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ cp death_star/storm_trooper.txt death_star/tie_fighter_2
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ cp death_star/storm_trooper.txt death_star/tie_fighter_3
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mv death_star/tie_fighter_1 galaxy_far_far_away/
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mv death_star/tie_fighter_2 galaxy_far_far_away/
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mv death_star/tie_fighter_3 galaxy_far_far_away/
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ rm galaxy_far_far_away/tie_fighter_2 galaxy_far_far_away/tie_fighter_3
+rm: galaxy_far_far_away/tie_fighter_2: is a directory
+rm: galaxy_far_far_away/tie_fighter_3: is a directory
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ rm -r galaxy_far_far_away/tie_fighter_2 galaxy_far_far_away/tie_fighter_3
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ touch galaxy_far_far_away/x_wing/the_force.txt
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ rm -r death_star/
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mv galaxy_far_far_away/x_wing/ galaxy_far_far_away/yavin_4/
+Tylers-MacBook-Pro:homework_part_1 tylernicholson$ mv galaxy_far_far_away/millenium_falcon/ galaxy_far_far_away/yavin_4/
