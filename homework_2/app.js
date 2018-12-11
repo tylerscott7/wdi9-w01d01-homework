@@ -41,3 +41,29 @@ for (let i=1; i <= 100; i++){
         console.log(i);
     };
 };
+
+// Problem 5:
+const shahzad = ["Shahzad", 1000, "Austin"];
+const jim = ["Jim", 16, "All cities"];
+const reuben = ["Reuben", 22, "Durham"];
+const daniel = ["Daniel", 186, "Dallas"];
+const ryan = ["Ryan", 65, "Denver"];
+// Step 1:
+shahzad.splice(0, 1, "Gameboy");
+console.log(shahzad);
+// Step 2:
+daniel[1]+=1;
+console.log(daniel);
+// Step 3:
+ryan[2]="Denver";
+console.log(ryan);
+// Step 4:
+reuben.pop();
+reuben.push("Chicago");
+console.log(reuben);
+// Step 5:
+jim.splice(2,1,"Atlanta","Miami","New York");
+console.log(jim);
+// Step 6:
+jim.splice(2,1);
+console.log(jim);
