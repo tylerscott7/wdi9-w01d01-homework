@@ -122,5 +122,43 @@ for (let i=0; i<thomsCloset.length; i++){
     console.log(thomsCloset[i]);
 };
 
+// Problem 9
+// Add all numbers below 1000 that are divisible by 3 or 5
+let sum = 0;
+for (i=0; i<1000; i++){
+    if (i%3==0){
+        sum = sum + i;
+    } else if (i%5==0){
+        sum = sum + i;
+    } else {
+        //do nothing
+    };
+}
+console.log(sum);
 
-
+// Problem 10
+// Number 1
+let argument = 7;
+let hash = '';
+for (let i=1;i<=argument;i++){
+    hash += '#';
+    console.log(hash);
+};
+let hash2 = '';
+// Number 2
+for (let i=1;i<=argument;i++){
+    hash2 += '#';
+    console.log(hash2);
+};
+let hash3 = "#######";
+// Number 3
+for (let i=0;i<=argument;i++){
+    let subs = String(hash3).substr(i,argument);
+    console.log(subs);
+};
+let hash4 = '';
+// Number 4
+for (let i=1;i<=argument;i++){
+    hash4 += '#';
+    console.log(hash4);
+};
