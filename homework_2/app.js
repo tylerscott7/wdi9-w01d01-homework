@@ -112,4 +112,15 @@ console.log(kristynsCloset);
 thomsCloset[2].push(kristynsShoe);
 console.log(thomsCloset);
 
+// Problem 8
+// Number 1
+for (let i = 0; i < kristynsCloset.length; i++){
+    console.log(`WHIRR: Now washing ${kristynsCloset[i]}`);
+};
+// Number 2
+for (let i=0; i<thomsCloset.length; i++){
+    console.log(thomsCloset[i]);
+};
+
+
 
