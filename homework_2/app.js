@@ -162,3 +162,14 @@ for (let i=1;i<=argument;i++){
     hash4 += '#';
     console.log(hash4);
 };
+
+// Problem 11
+let median = 0;
+const nums = [14, 11, 16, 15, 13, 16, 15, 17, 19, 11, 12, 14, 19, 11, 15, 17, 11, 18,12, 17, 12, 71, 18, 15, 12];
+nums.sort(function(a, b){return b - a});        // Sort Desc
+if (nums.length % 2 == 1){                      // If odd number, take middle index
+    median = nums[Math.ceil(nums.length/2)];
+} else {                                        // If even number, avg middle two indices
+    median = ( nums[nums.length/2] + nums[nums.length/2 + 1]) / 2;
+};
+console.log(median);
